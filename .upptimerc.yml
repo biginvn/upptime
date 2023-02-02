@@ -5,14 +5,413 @@ repo: upptime # The name of this repository
 sites:
   - name: Agoyu
     url: https://agoyu.com/
+  - name: International booking
+    method: POST
+    url: https://agoyu.com/api/booking/estimation
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: International booking - Quotation
+    method: POST
+    url: https://agoyu.com/api/booking/market-place/123
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Domestic booking
+    method: POST
+    url: https://agoyu.com/api/booking/estimation
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Domestic booking - Quotation
+    method: POST
+    url: https://agoyu.com/api/booking/market-place/123
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Change Status Booking
+    method: POST
+    url: https://agoyu.com/api/consumer/moving-plan/cancel/12
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Register new account
+    method: POST
+    url: https://agoyu.com/api/consumer/auth/register
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Send message
+    method: POST
+    url: https://agoyu.com/api/notification/chat/new-message
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Manage Account - Agoyu User
+    method: GET
+    url: https://agoyu.com/ajax/agoyu/agoyu-user/get-agoyu-user
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Manage Account - Consumer
+    method: GET
+    url: https://agoyu.com/ajax/agoyu/consumer/consumers
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Manage Account - Mover
+    method: GET
+    url: https://agoyu.com/ajax/agoyu/mover/agoyu-get-movers
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: International Moving Rate
+    method: GET
+    url: https://agoyu.com/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Domestic Moving Rate
+    method: GET
+    url: https://agoyu.com/ajax/agoyu/mover/domestic-rates/vehicle-rates/list
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Manage weight Mapping
+    method: GET
+    url: https://agoyu.com/ajax/agoyu/manage-weight-mapping/search
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Market Place
+    method: GET
+    url: https://agoyu.com/api/consumer/quotations
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Manage Page
+    method: GET
+    url: https://agoyu.com/ajax/pages/template-content/homepage?pageSlug=homepage
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Market Place
+    method: GET
+    url: https://agoyu.com/api/mover/quotations
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Ping-back Moving Rate
+    method: GET
+    url: https://agoyu.com/api/mover/pingback/406
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Open API
+    method: GET
+    url: https://agoyu.com/api/mover/webhook?page=1&limit=10
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: International Moving Rate
+    method: GET
+    url: http://agoyu.bigin/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Domestic Moving Rate
+    method: GET
+    url: https://agoyu.com/ajax/agoyu/mover/domestic-rates/vehicle-rates/list
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Manage User
+    method: GET
+    url: https://agoyu.com/ajax/mover/movers
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Manage Booking Request
+    method: GET
+    url: https://agoyu.com/api/mover/booking
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Register new account
+    method: POST
+    url: https://agoyu.com/api/mover/auth/register
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Send message
+    method: POST
+    url: https//agoyu.com/api/mover/chat/send-notification
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Logout
+    method: POST
+    url: https://agoyu.com/api/custom-user/auth/logout
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
   - name: Login
     method: POST
     url: https://agoyu.com/api/custom-user/auth/login
     headers:
       - "Content-Type: application/json"
+      - "Accept: application/json"
     expectedStatusCodes:
       - 200
       - 422
+      - 401
+      - 400
+  - name: Google API
+    method: POST
+    url: https://agoyu.com/api/google/detail-place?address=123
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Upload media
+    method: POST
+    url: https://agoyu.com/api/media/uploadSingle
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Consumer list moving plan
+    method: POST
+    url: https://agoyu.com/api/consumer/moving-plan
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Consumer detail moving plan
+    method: POST
+    url: https://agoyu.com/api/consumer/moving-plan/12
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Consumer detail moving plan audit log
+    method: POST
+    url: https://agoyu.com/api/consumer/moving-plan/audit-log/12
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Consumer list notification
+    method: POST
+    url: https://agoyu.com/api/consumer/notifications?page=1&limit=10
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Get data SEO page
+    method: POST
+    url: https://agoyu.com/api/page/homepage
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Consumer profile
+    method: POST
+    url: https://agoyu.com/api/consumer/profile
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Consumer quotation detail
+    method: POST
+    url: https://agoyu.com/api/consumer/quotations/12
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: Reference booking
+    method: POST
+    url: https://agoyu.com/api/references
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+  - name: List room temp booking
+    method: POST
+    url: https://agoyu.com/api/consumer/survey/room-temp?booking_id=12
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
   - name: Agoyu QA
     url: https://agoyu-qa.bigin.top/
   - name: Agoyu UAT
