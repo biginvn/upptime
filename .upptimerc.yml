@@ -205,7 +205,7 @@ sites:
       - 400
   - name: International Moving Rate
     method: GET
-    url: http://agoyu.bigin/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
+    url: https://agoyu.com/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -260,7 +260,7 @@ sites:
       - 400
   - name: Send message
     method: POST
-    url: https//agoyu.com/api/mover/chat/send-notification
+    url: https://agoyu.com/api/mover/chat/send-notification
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -292,7 +292,7 @@ sites:
       - 401
       - 400
   - name: Google API
-    method: POST
+    method: GET
     url: https://agoyu.com/api/google/detail-place?address=123
     headers:
       - "Content-Type: application/json"
@@ -314,7 +314,7 @@ sites:
       - 401
       - 400
   - name: Consumer list moving plan
-    method: POST
+    method: GET
     url: https://agoyu.com/api/consumer/moving-plan
     headers:
       - "Content-Type: application/json"
@@ -325,7 +325,7 @@ sites:
       - 401
       - 400
   - name: Consumer detail moving plan
-    method: POST
+    method: GET
     url: https://agoyu.com/api/consumer/moving-plan/12
     headers:
       - "Content-Type: application/json"
@@ -336,7 +336,7 @@ sites:
       - 401
       - 400
   - name: Consumer detail moving plan audit log
-    method: POST
+    method: GET
     url: https://agoyu.com/api/consumer/moving-plan/audit-log/12
     headers:
       - "Content-Type: application/json"
@@ -347,7 +347,7 @@ sites:
       - 401
       - 400
   - name: Consumer list notification
-    method: POST
+    method: GET
     url: https://agoyu.com/api/consumer/notifications?page=1&limit=10
     headers:
       - "Content-Type: application/json"
@@ -369,7 +369,7 @@ sites:
       - 401
       - 400
   - name: Consumer profile
-    method: POST
+    method: GET
     url: https://agoyu.com/api/consumer/profile
     headers:
       - "Content-Type: application/json"
@@ -380,7 +380,7 @@ sites:
       - 401
       - 400
   - name: Consumer quotation detail
-    method: POST
+    method: GET
     url: https://agoyu.com/api/consumer/quotations/12
     headers:
       - "Content-Type: application/json"
@@ -391,7 +391,7 @@ sites:
       - 401
       - 400
   - name: Reference booking
-    method: POST
+    method: GET
     url: https://agoyu.com/api/references
     headers:
       - "Content-Type: application/json"
