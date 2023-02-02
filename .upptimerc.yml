@@ -71,7 +71,7 @@ sites:
       - 422
       - 401
       - 400
-  - name: Send message
+  - name: Consumer Send message
     method: POST
     url: https://agoyu.com/api/notification/chat/new-message
     headers:
@@ -258,7 +258,7 @@ sites:
       - 422
       - 401
       - 400
-  - name: Send message
+  - name: Mover Send message
     method: POST
     url: https://agoyu.com/api/mover/chat/send-notification
     headers:
