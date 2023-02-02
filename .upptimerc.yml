@@ -5,6 +5,14 @@ repo: upptime # The name of this repository
 sites:
   - name: Agoyu
     url: https://agoyu.com/
+  - name: Login
+    method: POST
+    url: https://agoyu.com/api/custom-user/auth/login
+    headers:
+      - "Content-Type: application/json"
+    expectedStatusCodes:
+      - 200
+      - 422
   - name: Agoyu QA
     url: https://agoyu-qa.bigin.top/
   - name: Agoyu UAT
