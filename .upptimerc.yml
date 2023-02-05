@@ -73,7 +73,7 @@ sites:
       - 400
   - name: Consumer Send message
     method: POST
-    url: https://agoyu.com/api/notification/chat/new-messagee
+    url: https://agoyu.com/api/notification/chat/new-message
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
