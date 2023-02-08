@@ -427,8 +427,6 @@ sites:
     url: https://agoyu-qa.bigin.top/
   - name: Agoyu UAT
     url: https://agoyu-uat.bigin.top/
-  - name: Agoyu STAGING
-    url: https://preview.agoyu.com/
 status-website:
   theme: light
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
