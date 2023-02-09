@@ -18,7 +18,7 @@ sites:
       - 400
   - name: Fake API testing
     method: POST
-    url: https://agoyu-qa.bigin.top/api/fake-api/post
+    url: https://preview.agoyu.com/api/fake-api/post
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
