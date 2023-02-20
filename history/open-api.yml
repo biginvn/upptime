@@ -1,7 +1,7 @@
 url: https://preview.agoyu.com/api/mover/webhook?page=1&limit=10
-status: up
-code: 401
-responseTime: 81
-lastUpdated: 2023-02-20T09:02:46.753Z
+status: down
+code: 502
+responseTime: 49
+lastUpdated: 2023-02-20T10:45:20.864Z
 startTime: Mon Feb 20 2023 09:02:46 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
