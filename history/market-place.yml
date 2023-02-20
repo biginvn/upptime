@@ -1,7 +1,7 @@
-url: https://preview.agoyu.com/api/consumer/quotations
+url: https://preview.agoyu.com/api/mover/quotations
 status: up
 code: 401
-responseTime: 154
-lastUpdated: 2023-02-20T02:55:03.568Z
+responseTime: 153
+lastUpdated: 2023-02-20T02:55:13.185Z
 startTime: Mon Feb 20 2023 02:55:03 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
