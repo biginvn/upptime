@@ -1,7 +1,7 @@
 url: https://preview.agoyu.com/api/consumer/moving-plan/12
-status: down
-code: 521
-responseTime: 89
-lastUpdated: 2023-02-20T07:59:30.528Z
+status: up
+code: 401
+responseTime: 73
+lastUpdated: 2023-02-20T08:18:39.352Z
 startTime: Mon Feb 20 2023 02:56:03 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
