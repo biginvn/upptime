@@ -1,7 +1,7 @@
 url: https://preview.agoyu.com/api/booking/estimation
-status: up
-code: 401
-responseTime: 71
-lastUpdated: 2023-02-20T08:17:07.127Z
+status: down
+code: 521
+responseTime: 49
+lastUpdated: 2023-02-20T08:47:41.443Z
 startTime: Mon Feb 20 2023 02:54:08 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
