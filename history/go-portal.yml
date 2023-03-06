@@ -1,7 +1,7 @@
 url: https://goportal-staging.bigin.top/backend/dashboard#/
-status: up
-code: 200
-responseTime: 2596
-lastUpdated: 2023-03-06T06:36:27.793Z
+status: down
+code: 500
+responseTime: 986
+lastUpdated: 2023-03-06T07:25:42.603Z
 startTime: Mon Mar 06 2023 05:37:39 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
