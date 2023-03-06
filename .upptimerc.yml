@@ -6,7 +6,7 @@ sites:
   - name: Agoyu
     url: https://agoyu.com/
   - name: GO Portal
-    url: https://goportal-uat.bigin.top/
+    url: https://goportal-staging.bigin.top/backend/dashboard#/
   - name: International booking
     method: POST
     url: https://agoyu.com/api/booking/estimation
