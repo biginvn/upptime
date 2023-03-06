@@ -5,14 +5,11 @@ repo: upptime # The name of this repository
 sites:
   - name: Agoyu
     url: https://agoyu.com/
-    tag: AGOYU
   - name: GO Portal
     url: https://goportal-uat.bigin.top/
-    tag: GOPORTAL
   - name: International booking
     method: POST
     url: https://agoyu.com/api/booking/estimation
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -24,7 +21,6 @@ sites:
   - name: Fake API testing
     method: POST
     url: https://agoyu.com/api/fake-api/post
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -36,7 +32,6 @@ sites:
   - name: International booking - Quotation
     method: POST
     url: https://agoyu.com/api/booking/market-place/123
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -48,7 +43,6 @@ sites:
   - name: Domestic booking
     method: POST
     url: https://agoyu.com/api/booking/estimation
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -60,7 +54,6 @@ sites:
   - name: Domestic booking - Quotation
     method: POST
     url: https://agoyu.com/api/booking/market-place/123
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -72,7 +65,6 @@ sites:
   - name: Change Status Booking
     method: POST
     url: https://agoyu.com/api/consumer/moving-plan/cancel/12
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -84,7 +76,6 @@ sites:
   - name: Register new account
     method: POST
     url: https://agoyu.com/api/consumer/auth/register
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -96,7 +87,6 @@ sites:
   - name: Consumer Send message
     method: POST
     url: https://agoyu.com/api/notification/chat/new-message
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -108,7 +98,6 @@ sites:
   - name: Manage Account - Agoyu User
     method: GET
     url: https://agoyu.com/ajax/agoyu/agoyu-user/get-agoyu-user
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -120,7 +109,6 @@ sites:
   - name: Manage Account - Consumer
     method: GET
     url: https://agoyu.com/ajax/agoyu/consumer/consumers
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -132,7 +120,6 @@ sites:
   - name: Manage Account - Mover
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/agoyu-get-movers
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -144,7 +131,6 @@ sites:
   - name: International Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -156,7 +142,6 @@ sites:
   - name: Domestic Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/domestic-rates/vehicle-rates/list
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -168,7 +153,6 @@ sites:
   - name: Manage weight Mapping
     method: GET
     url: https://agoyu.com/ajax/agoyu/manage-weight-mapping/search
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -180,7 +164,6 @@ sites:
   - name: Market Place
     method: GET
     url: https://agoyu.com/api/consumer/quotations
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -192,7 +175,6 @@ sites:
   - name: Manage Page
     method: GET
     url: https://agoyu.com/ajax/pages/template-content/homepage?pageSlug=homepage
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -204,7 +186,6 @@ sites:
   - name: Market Place
     method: GET
     url: https://agoyu.com/api/mover/quotations
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -216,7 +197,6 @@ sites:
   - name: Ping-back Moving Rate
     method: GET
     url: https://agoyu.com/api/mover/pingback/406
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -228,7 +208,6 @@ sites:
   - name: Open API
     method: GET
     url: https://agoyu.com/api/mover/webhook?page=1&limit=10
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -240,7 +219,6 @@ sites:
   - name: International Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -252,7 +230,6 @@ sites:
   - name: Domestic Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/domestic-rates/vehicle-rates/list
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -264,7 +241,6 @@ sites:
   - name: Manage User
     method: GET
     url: https://agoyu.com/ajax/mover/movers
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -276,7 +252,6 @@ sites:
   - name: Manage Booking Request
     method: GET
     url: https://agoyu.com/api/mover/booking
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -288,7 +263,6 @@ sites:
   - name: Register new account
     method: POST
     url: https://agoyu.com/api/mover/auth/register
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -300,7 +274,6 @@ sites:
   - name: Mover Send message
     method: POST
     url: https://agoyu.com/api/mover/chat/send-notification
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -312,7 +285,6 @@ sites:
   - name: Logout
     method: POST
     url: https://agoyu.com/api/custom-user/auth/logout
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -324,7 +296,6 @@ sites:
   - name: Login
     method: POST
     url: https://agoyu.com/api/custom-user/auth/login
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -336,7 +307,6 @@ sites:
   - name: Google API
     method: GET
     url: https://agoyu.com/api/google/detail-place?address=123
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -348,7 +318,6 @@ sites:
   - name: Upload media
     method: POST
     url: https://agoyu.com/api/media/uploadSingle
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -360,7 +329,6 @@ sites:
   - name: Consumer list moving plan
     method: GET
     url: https://agoyu.com/api/consumer/moving-plan
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -372,7 +340,6 @@ sites:
   - name: Consumer detail moving plan
     method: GET
     url: https://agoyu.com/api/consumer/moving-plan/12
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -384,7 +351,6 @@ sites:
   - name: Consumer detail moving plan audit log
     method: GET
     url: https://agoyu.com/api/consumer/moving-plan/audit-log/12
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -396,7 +362,6 @@ sites:
   - name: Consumer list notification
     method: GET
     url: https://agoyu.com/api/consumer/notifications?page=1&limit=10
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -408,7 +373,6 @@ sites:
   - name: Get data SEO page
     method: POST
     url: https://agoyu.com/api/page/homepage
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -420,7 +384,6 @@ sites:
   - name: Consumer profile
     method: GET
     url: https://agoyu.com/api/consumer/profile
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -432,7 +395,6 @@ sites:
   - name: Consumer quotation detail
     method: GET
     url: https://agoyu.com/api/consumer/quotations/12
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -444,7 +406,6 @@ sites:
   - name: Reference booking
     method: GET
     url: https://agoyu.com/api/references
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
@@ -456,7 +417,6 @@ sites:
   - name: List room temp booking
     method: POST
     url: https://agoyu.com/api/consumer/survey/room-temp?booking_id=12
-    tag: AGOYU
     headers:
       - "Content-Type: application/json"
       - "Accept: application/json"
