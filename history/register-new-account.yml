@@ -1,7 +1,7 @@
-url: https://agoyu.com/api/consumer/auth/register
+url: https://agoyu.com/api/mover/auth/register
 status: up
 code: 400
-responseTime: 119
-lastUpdated: 2023-03-09T23:13:29.660Z
+responseTime: 126
+lastUpdated: 2023-03-09T23:13:37.714Z
 startTime: Mon Feb 20 2023 09:01:44 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
