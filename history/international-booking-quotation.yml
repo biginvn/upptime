@@ -1,7 +1,7 @@
 url: https://agoyu.com/api/booking/market-place/123
-status: up
-code: 401
-responseTime: 97
-lastUpdated: 2023-05-17T23:10:32.268Z
+status: down
+code: 502
+responseTime: 3135
+lastUpdated: 2023-05-18T10:30:44.020Z
 startTime: Mon Feb 20 2023 02:54:03 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
