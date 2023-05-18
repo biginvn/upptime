@@ -1,7 +1,7 @@
 url: https://agoyu.com/api/booking/estimation
-status: down
-code: 502
-responseTime: 3138
-lastUpdated: 2023-05-18T10:30:59.028Z
+status: up
+code: 401
+responseTime: 124
+lastUpdated: 2023-05-18T10:40:05.559Z
 startTime: Mon Feb 20 2023 09:01:31 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
