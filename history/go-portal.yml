@@ -1,7 +1,7 @@
 url: https://goportal.agoyu.com/backend/dashboard#/
-status: up
-code: 200
-responseTime: 980
-lastUpdated: 2023-05-17T23:10:30.974Z
+status: down
+code: 521
+responseTime: 332
+lastUpdated: 2023-05-18T08:59:42.986Z
 startTime: Mon Mar 06 2023 05:37:39 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
