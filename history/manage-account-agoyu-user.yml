@@ -1,7 +1,7 @@
 url: https://agoyu.com/ajax/agoyu/agoyu-user/get-agoyu-user
-status: up
-code: 401
-responseTime: 320
-lastUpdated: 2023-08-22T23:10:03.541Z
+status: down
+code: 502
+responseTime: 93
+lastUpdated: 2023-08-23T03:24:27.190Z
 startTime: Mon Feb 20 2023 09:01:52 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
