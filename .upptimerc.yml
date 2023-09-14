@@ -18,8 +18,6 @@ sites:
       - 422
       - 401
       - 400
-  - name: ARC QA
-    url: https://arc-qa.bigin.top/
   - name: ARC PRODUCTION
     url: https://newarcportal.com/
   - name: Fake API testing
