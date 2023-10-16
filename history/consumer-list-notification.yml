@@ -1,7 +1,7 @@
 url: https://agoyu.com/api/consumer/notifications?page=1&limit=10
 status: up
 code: 401
-responseTime: 50
-lastUpdated: 2023-10-15T23:10:46.844Z
+responseTime: 96
+lastUpdated: 2023-10-16T23:10:59.914Z
 startTime: Mon Feb 20 2023 09:03:16 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
