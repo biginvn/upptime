@@ -5,8 +5,20 @@ repo: upptime # The name of this repository
 sites:
   - name: Agoyu
     url: https://agoyu.com/
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+      - 403
   - name: GO Portal
     url: https://goportal.agoyu.com/backend/dashboard#/
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+      - 403
   - name: International booking
     method: POST
     url: https://agoyu.com/api/booking/estimation
@@ -21,6 +33,12 @@ sites:
       - 403
   - name: ARC PRODUCTION
     url: https://newarcportal.com/
+    expectedStatusCodes:
+      - 200
+      - 422
+      - 401
+      - 400
+      - 403
   - name: Fake API testing
     method: POST
     url: https://agoyu.com/api/fake-api/post
