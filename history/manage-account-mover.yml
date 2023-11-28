@@ -1,7 +1,7 @@
 url: https://agoyu.com/ajax/agoyu/mover/agoyu-get-movers
-status: up
-code: 401
-responseTime: 71
-lastUpdated: 2023-11-28T04:52:10.698Z
+status: down
+code: 403
+responseTime: 6
+lastUpdated: 2023-11-28T05:57:08.781Z
 startTime: Mon Feb 20 2023 09:02:06 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
