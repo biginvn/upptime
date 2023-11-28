@@ -18,6 +18,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: ARC PRODUCTION
     url: https://newarcportal.com/
   - name: Fake API testing
@@ -31,6 +32,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: International booking - Quotation
     method: POST
     url: https://agoyu.com/api/booking/market-place/123
@@ -42,6 +44,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Domestic booking
     method: POST
     url: https://agoyu.com/api/booking/estimation
@@ -53,6 +56,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Domestic booking - Quotation
     method: POST
     url: https://agoyu.com/api/booking/market-place/123
@@ -64,6 +68,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Change Status Booking
     method: POST
     url: https://agoyu.com/api/consumer/moving-plan/cancel/12
@@ -75,6 +80,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Register new account
     method: POST
     url: https://agoyu.com/api/consumer/auth/register
@@ -86,6 +92,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Consumer Send message
     method: POST
     url: https://agoyu.com/api/notification/chat/new-message
@@ -97,6 +104,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Manage Account - Agoyu User
     method: GET
     url: https://agoyu.com/ajax/agoyu/agoyu-user/get-agoyu-user
@@ -108,6 +116,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Manage Account - Consumer
     method: GET
     url: https://agoyu.com/ajax/agoyu/consumer/consumers
@@ -119,6 +128,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Manage Account - Mover
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/agoyu-get-movers
@@ -130,6 +140,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: International Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
@@ -141,6 +152,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Domestic Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/domestic-rates/vehicle-rates/list
@@ -152,6 +164,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Manage weight Mapping
     method: GET
     url: https://agoyu.com/ajax/agoyu/manage-weight-mapping/search
@@ -163,6 +176,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Market Place
     method: GET
     url: https://agoyu.com/api/consumer/quotations
@@ -174,6 +188,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Manage Page
     method: GET
     url: https://agoyu.com/ajax/pages/template-content/homepage?pageSlug=homepage
@@ -185,6 +200,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Market Place
     method: GET
     url: https://agoyu.com/api/mover/quotations
@@ -196,6 +212,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Ping-back Moving Rate
     method: GET
     url: https://agoyu.com/api/mover/pingback/406
@@ -207,6 +224,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Open API
     method: GET
     url: https://agoyu.com/api/mover/webhook?page=1&limit=10
@@ -218,6 +236,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: International Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/international-rates/manage-rates/custom-rate/list
@@ -229,6 +248,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Domestic Moving Rate
     method: GET
     url: https://agoyu.com/ajax/agoyu/mover/domestic-rates/vehicle-rates/list
@@ -240,6 +260,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Manage User
     method: GET
     url: https://agoyu.com/ajax/mover/movers
@@ -251,6 +272,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Manage Booking Request
     method: GET
     url: https://agoyu.com/api/mover/booking
@@ -262,6 +284,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Register new account
     method: POST
     url: https://agoyu.com/api/mover/auth/register
@@ -273,6 +296,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Mover Send message
     method: POST
     url: https://agoyu.com/api/mover/chat/send-notification
@@ -284,6 +308,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Logout
     method: POST
     url: https://agoyu.com/api/custom-user/auth/logout
@@ -295,6 +320,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Login
     method: POST
     url: https://agoyu.com/api/custom-user/auth/login
@@ -306,6 +332,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Google API
     method: GET
     url: https://agoyu.com/api/google/detail-place?address=123
@@ -317,6 +344,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Upload media
     method: POST
     url: https://agoyu.com/api/media/uploadSingle
@@ -328,6 +356,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Consumer list moving plan
     method: GET
     url: https://agoyu.com/api/consumer/moving-plan
@@ -339,6 +368,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Consumer detail moving plan
     method: GET
     url: https://agoyu.com/api/consumer/moving-plan/12
@@ -350,6 +380,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Consumer detail moving plan audit log
     method: GET
     url: https://agoyu.com/api/consumer/moving-plan/audit-log/12
@@ -361,6 +392,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Consumer list notification
     method: GET
     url: https://agoyu.com/api/consumer/notifications?page=1&limit=10
@@ -372,6 +404,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Get data SEO page
     method: POST
     url: https://agoyu.com/api/page/homepage
@@ -383,6 +416,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Consumer profile
     method: GET
     url: https://agoyu.com/api/consumer/profile
@@ -394,6 +428,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Consumer quotation detail
     method: GET
     url: https://agoyu.com/api/consumer/quotations/12
@@ -405,6 +440,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: Reference booking
     method: GET
     url: https://agoyu.com/api/references
@@ -416,6 +452,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
   - name: List room temp booking
     method: POST
     url: https://agoyu.com/api/consumer/survey/room-temp?booking_id=12
@@ -427,6 +464,7 @@ sites:
       - 422
       - 401
       - 400
+      - 403
 status-website:
   theme: light
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
