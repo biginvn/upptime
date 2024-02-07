@@ -1,7 +1,7 @@
 url: https://agoyu.com/api/consumer/survey/room-temp?booking_id=12
 status: up
-code: 401
-responseTime: 148
-lastUpdated: 2024-02-06T23:11:12.271Z
+code: 400
+responseTime: 80
+lastUpdated: 2024-02-07T23:11:25.811Z
 startTime: Mon Feb 20 2023 09:03:20 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
