@@ -1,7 +1,7 @@
 url: https://agoyu.com/api/mover/chat/send-notification
-status: down
-code: 502
-responseTime: 12
-lastUpdated: 2024-02-23T15:37:17.902Z
+status: up
+code: 401
+responseTime: 73
+lastUpdated: 2024-02-23T15:51:09.298Z
 startTime: Mon Feb 20 2023 09:03:01 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
