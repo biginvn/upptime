@@ -1,7 +1,7 @@
 url: https://agoyu.com/api/consumer/moving-plan/cancel/12
-status: up
-code: 401
-responseTime: 65
-lastUpdated: 2024-02-22T23:12:44.544Z
+status: down
+code: 502
+responseTime: 2835
+lastUpdated: 2024-02-23T15:36:35.378Z
 startTime: Mon Feb 20 2023 09:01:39 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
