@@ -1,7 +1,7 @@
 url: https://agoyu.com/api/google/detail-place?address=123
-status: down
-code: 502
-responseTime: 12
-lastUpdated: 2024-02-23T15:37:19.396Z
+status: up
+code: 422
+responseTime: 154
+lastUpdated: 2024-02-23T15:51:10.572Z
 startTime: Mon Feb 20 2023 09:03:14 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
