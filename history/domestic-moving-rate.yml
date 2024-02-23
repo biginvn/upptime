@@ -1,7 +1,7 @@
 url: https://agoyu.com/ajax/agoyu/mover/domestic-rates/vehicle-rates/list
-status: up
-code: 401
-responseTime: 74
-lastUpdated: 2024-02-22T23:12:48.816Z
+status: down
+code: 502
+responseTime: 19
+lastUpdated: 2024-02-23T15:36:56.831Z
 startTime: Mon Feb 20 2023 09:02:15 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
